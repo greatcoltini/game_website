@@ -74,7 +74,6 @@ h1 {
     font-size: 1vw;
 }
 
-
 @media screen and (max-width:600px){
     .hideOnSmall{
         display: none !important;

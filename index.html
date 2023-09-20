@@ -1,50 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Top Navbar Template</title>
-    <!-- Add Bootstrap CSS link -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
-<body>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Bootstrap Top Navbar Template</title>
+            <!-- Add Bootstrap CSS link -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+            <link rel="stylesheet" href="styles/styles.css">
+        </head>
 
-<!-- Navigation Bar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">CD</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
-            </li>
-			<li class="nav-item">
-                <a class="nav-link" href="features.html">Features</a>
-            </li>    
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-            </li>   
-        </ul>
-    </div>
-</nav>
+        <body>
 
-<!-- Content Goes Here -->
-<div class="container mt-4">
-    <h1>Welcome to the Surviving in the Wilds page.</h1>
-    <p>This is a pixel-art, 2D survival game, where the player has the freedom to travel the world and build out their own survival base.</p>
-</div>
+            <!-- Navigation Bar -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">CD</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="features.html">Features</a>
+                        </li>    
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>   
+                    </ul>
+                </div>
+            </nav>
 
-<!-- Add Bootstrap JS and jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
+            <!-- Content Goes Here -->
+            <div class="container-fluid">
+                <img src="images/splash.png" style="background-size: 100%;">
+            </div>
+
+            <div class="container mt-4">
+                <p>This is a pixel-art, 2D survival game, where the player has the freedom to travel the world and build out their own survival base.</p>
+            </div>
+
+            <footer class="footer bg-dark text-light mt-5">
+                <div class="container">
+                    <div class="socials">
+                        <a class="socials_links" href="https://github.com/greatcoltini" target="_blank">
+                            <img class="image socialimg" src="images/githubicohov.png" alt="GitHub">
+                        </a>
+                        <a class="socials_links" href="https://instagram.com/greatcoltini" target="_blank">
+                            <img class="image socialimg" src="images/greyinstaico.png" alt="Instagram">
+                        </a>
+                        <a class="socials_links" href="https://www.linkedin.com/in/colton-donkersgoed/" target="_blank">
+                            <img class="image socialimg" src="images/greylinkedinico.png" alt="Indeed">
+                        </a>
+                        <a class="socials_links" href="https://www.facebook.com/colton.donkersgoed" target="_blank">
+                            <img class="image socialimg" src="images/greyfbico.png" alt="Facebook">
+                        </a>
+                    </div>
+                    <div class="row my-0 position-relative">
+                        <p class="text-center text-muted">© 2022 COLTON DONKERSGOED</p>
+                    </div>
+                </div>
+            </footer>
+
+            <!-- Add Bootstrap JS and jQuery -->
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        </body>
+    </html>
