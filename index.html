@@ -9,10 +9,10 @@
             <link rel="stylesheet" href="styles/styles.css">
         </head>
 
-        <body>
+        <body class="bg-light" style="margin-top: 0; padding-top: 0px">
 
             <!-- Navigation Bar -->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="border-bottom: thick double black">
                 <a class="navbar-brand" href="#">CD</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -22,33 +22,117 @@
                         <li class="nav-item active">
                             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="features.html">Features</a>
-                        </li>    
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>   
                     </ul>
                 </div>
             </nav>
 
             <!-- Content Goes Here -->
-            <div class="container-fluid">
+            <div class="container-fluid" style="margin: 0; padding: 0;">
 
-                <img src="images/splash.png" style="object-fit: contain;width: 100%; height: auto;">
+                <img src="images/splash.png" style="object-fit: contain;width: 100%; height: auto; margin: 0; padding: 0">
             </div>
 
-            <div class="container mt-4">
-                <p>This is a pixel-art, 2D survival game, where the player has the freedom to travel the world and build out their own survival base.</p>
+            <div class="container bg-dark text-light" style="border-color: black; border-style:double">
+
+                <!-- Procedural Generation -->
+                <div class="container col-xxl-8 px-4 py-5">
+                    <div class="row flex-lg-row-reverse align-items-center g-5 py-5 border">
+                      <div class="col-lg-6">
+                        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">NAVIGATE</h1>
+                        <p class="lead">A procedurally generated open world, with multiple biomes, exciting encounters, and epic adventures!</p>
+                      </div>
+                    <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="images/open_world.gif" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                        </div>
+
+                    </div>
+                  </div>
+
+                <!-- Underground Gen -->
+
+                <div class="container col-xxl-8 px-4 py-5">
+                    <div class="row flex-lg-row-reverse align-items-center g-5 py-5 border">
+                      <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="images/cave_gen.gif" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                        </div>
+                      <div class="col-lg-6">
+                        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">DELVE</h1>
+                        <p class="lead">Deep into caverns and caves to find the precious resources and materials needed to build weapons and armours.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  
+                <!-- Inventory Management -->
+
+                <div class="container col-xxl-8 px-4 py-5">
+                    <div class="row flex-lg-row-reverse align-items-center g-5 py-5 border">
+                      <div class="col-lg-6">
+                        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">MANAGE</h1>
+                        <p class="lead">Your items, manage your equipment, and craft with your inventory. There's a lot of space for items, but if you run low there's always the option to build storage!</p>
+                      </div>
+                      <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="images/inventory.gif" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                        </div>
+                    </div>
+                  </div>
+
+                <!-- Crafting  -->
+
+                <div class="container col-xxl-8 px-4 py-5">
+                    <div class="row flex-lg-row-reverse align-items-center g-5 py-5 border">
+                    <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="images/crafting.gif" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                        </div>
+                      <div class="col-lg-6">
+                        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">CRAFT</h1>
+                        <p class="lead">You'll have to find resources to make the items and structures that you need to survive.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                <!-- Building -->
+
+                <div class="container col-xxl-8 px-4 py-5">
+                    <div class="row flex-lg-row-reverse align-items-center g-5 py-5 border">
+                      <div class="col-lg-6">
+                        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">CONSTRUCT</h1>
+                        <p class="lead">Build a home, build a pen for your animals, or build a nice garden, the options are limitless.</p>
+                      </div>
+                      <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="images/building.gif" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                      </div>
+                    </div>
+                  </div>
+
+                <!-- Minigames -->
+                <div class="container col-xxl-8 px-4 py-5">
+                    <div class="row flex-lg-row-reverse align-items-center g-5 py-5 border">
+                      <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="images/fishing.gif" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                      </div>
+                      <div class="col-lg-6">
+                        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">FISH</h1>
+                        <p class="lead">Many of the aspects of life in Surviving the Wilds will require special interactions not unlike this fishing minigame to capture fish!</p>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <!-- Github Link -->
+                  <div class="bg-dark text-secondary px-4 py-5 text-center">
+                    <div class="py-5">
+                      <h1 class="display-5 fw-bold text-white">Follow Surviving the Wild's Progress on GitHub!</h1>
+                      <div class="col-lg-6 mx-auto">
+                         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                          <button type="button" target="_blank" href="https://github.com/greatcoltini/godot-testing-dev" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">GitHub Repository</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
             </div>
 
-            <footer class="footer bg-dark text-light mt-5">
+            <footer class="footer bg-dark text-light" style="border-color: black; border-style:double">
                 <div class="container">
                     <div class="socials">
                         <a class="socials_links" href="https://github.com/greatcoltini" target="_blank">
