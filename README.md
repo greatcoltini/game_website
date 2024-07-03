@@ -19,7 +19,7 @@ This survival game contains an inventory system, wherein the player will manage 
 
 While still WIP, below is a screenshot of this inventory.
 <br>
-![alt text](media/inventory.gif)
+![alt text](inventory.gif)
 <br>
 This inventory features a hotbar (the bottom section, where the active item is highlighted) and also an interior inventory.
 
@@ -27,7 +27,7 @@ This inventory features a hotbar (the bottom section, where the active item is h
 ### Crafting
 In this survival game, players will be able to craft items through resources combined, or items combined. 
 <br>
-![alt text](media/crafting.gif)
+![alt text](crafting.gif)
 
 
 ### Building
@@ -35,11 +35,11 @@ The game will also have building aspects, where the player will be able to const
 such as furnaces to smelt materials, a workbench to craft more complicated gear, and many vanity items such as 
 planter pots.
 <br>
-![alt text](media/building.gif)
+![alt text](building.gif)
 
 ### Procedural Generation
 Caves are procedurally generated for the player to explore with unique experiences and layouts every time!
-![alt text](media/cave_gen.gif)
+![alt text](cave_gen.gif)
 
 
 ### Combat
@@ -54,6 +54,6 @@ Within this survival game, a lot of the necessary interactions will be done thro
 One instance of this is the fishing minigame. In order to catch fish, the player must use their fishing rod and lure, and time their catch.
 Each fish in this game has unique properties, and unique environments with which they will swim in.
 <br>
-![alt text](media/fishing.gif)
+![alt text](fishing.gif)
 
 )
